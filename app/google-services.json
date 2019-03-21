@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "269036488916",
+    "firebase_url": "https://financialstatement-55d9c.firebaseio.com",
+    "project_id": "financialstatement-55d9c",
+    "storage_bucket": "financialstatement-55d9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269036488916:android:35c9ef6dfce8fa1e",
+        "android_client_info": {
+          "package_name": "com.example.boris.financialstatement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269036488916-3i4ss8fi4t75gaun6bn7gka6acqoe94s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.boris.financialstatement",
+            "certificate_hash": "e004bf2b12c052db99be2808564d6eb03db0bdb1"
+          }
+        },
+        {
+          "client_id": "269036488916-glkl1q38a71dvm6sd8uavmd04553o7ih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZk5fzXb9o2azL4Tww08n7wSEichZSZBM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269036488916-glkl1q38a71dvm6sd8uavmd04553o7ih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
