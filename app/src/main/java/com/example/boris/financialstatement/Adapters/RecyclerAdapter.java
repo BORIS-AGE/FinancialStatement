@@ -35,13 +35,15 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyHold
 
     @Override
     public void onBindViewHolder(@NonNull MyHolder myHolder, int i) {
-        myHolder.name.setText(items.get(i).getName());
-        myHolder.cash.setText("$" + MainActivity.splitNumberWithTeams(items.get(i).getCash() + ""));
+        if (items != null){
+            myHolder.name.setText(items.get(i).getName());
+            myHolder.cash.setText("$" + MainActivity.splitNumberWithTeams(items.get(i).getCash() + ""));
+        }
     }
 
     @Override
     public int getItemCount() {
-        return items.size();
+        return items != null ? items.size() : 0;
     }
 
     public class MyHolder extends RecyclerView.ViewHolder{

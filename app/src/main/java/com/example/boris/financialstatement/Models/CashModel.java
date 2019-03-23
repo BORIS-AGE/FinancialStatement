@@ -4,6 +4,9 @@ public class CashModel {
     String name;
     int cash;
 
+    public CashModel() {
+    }
+
     public CashModel(String name, int cash) {
         this.name = name;
         this.cash = cash;
