@@ -7,6 +7,15 @@ public class ArrayModel {
     List<CashModel> listOut;
     List<CashModel> listAss;
     List<CashModel> listLiab;
+    int cash;
+
+    public int getCash() {
+        return cash;
+    }
+
+    public void setCash(int cash) {
+        this.cash = cash;
+    }
 
     public List<CashModel> getListIn() {
         return listIn;
@@ -40,12 +49,13 @@ public class ArrayModel {
         this.listLiab = listLiab;
     }
 
-    public ArrayModel(List<CashModel> listIn, List<CashModel> listOut, List<CashModel> listAss, List<CashModel> listLiab) {
+    public ArrayModel(List<CashModel> listIn, List<CashModel> listOut, List<CashModel> listAss, List<CashModel> listLiab, int cash) {
 
         this.listIn = listIn;
         this.listOut = listOut;
         this.listAss = listAss;
         this.listLiab = listLiab;
+        this.cash = cash;
     }
     public ArrayModel() {
     }
